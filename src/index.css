@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Lato";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input,
+textarea {
+  outline: none;
+  border: 1px solid transparent;
+}
+
+select {
+  outline: none;
+}
+
+button {
+  outline: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background: transparent;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
