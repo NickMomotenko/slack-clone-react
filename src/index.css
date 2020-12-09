@@ -10,6 +10,7 @@ html {
   height: 100%;
   width: 100%;
   font-family: "Lato";
+  color: #fff;
 }
 
 code {
@@ -32,6 +33,7 @@ button {
   border: 1px solid transparent;
   cursor: pointer;
   background: transparent;
+  padding:0;
 }
 
 ul,

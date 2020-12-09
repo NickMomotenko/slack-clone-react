@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "name1",
+      "online": true,
+      "data": [],
+      "unread": ["1", "2", "3"]
+    },
+    {
+      "id": 2,
+      "name": "name2",
+      "online": false,
+      "data": [],
+      "unread": ["1", "2", "3"]
+    },
+    {
+      "id": 3,
+      "name": "name3",
+      "online": false,
+      "data": [],
+      "unread": ["1", "2", "3"]
+    },
+    {
+      "id": 4,
+      "name": "name4",
+      "online": true,
+      "data": [],
+      "unread": []
+    }
+  ]
+}

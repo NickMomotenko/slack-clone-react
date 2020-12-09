@@ -4,8 +4,10 @@ import styled from "styled-components";
 
 import Popup from "./modules/Popup/Popup";
 
+import ChatWrapper from "./components/ChatWrapper/ChatWrapper";
 import ChatBoard from "./components/ChatBoard/ChatBoard";
 import WorkSpaces from "./components/WorkSpaces/WorkSpaces";
+import ChatMenus from "./components/ChatMenus/ChatMenus";
 
 const AppWrapper = styled.div`
   height: 100%;
@@ -15,9 +17,11 @@ const AppWrapper = styled.div`
 const App = () => {
   return (
     <AppWrapper>
-      <ChatBoard>
+      <ChatWrapper>
         <WorkSpaces />
-      </ChatBoard>
+        <ChatMenus />
+        <ChatBoard />
+      </ChatWrapper>
       {/* <Popup /> */}
     </AppWrapper>
   );
